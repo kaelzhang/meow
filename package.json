@@ -1,5 +1,5 @@
 {
-  "name": "semicolon",
+  "name": "nekosay",
   "version": "0.1.1",
   "author": "Pavan Kumar Sunkara <pavan.sss1991@gmail.com> (http://pksunkara.github.com)",
   "description": "A language of only semicolons",
@@ -18,7 +18,11 @@
       "email": "pavan.sss1991@gmail.com"
     }
   ],
-  "dependencies": {},
+  "dependencies": {
+    "read": "~1.0.5",
+    "comfort": "~0.1.8",
+    "typo": "~0.1.11"
+  },
   "devDependencies": {},
   "engines": {
     "node": ">=0.6.4"
@@ -33,7 +37,7 @@
     }
   ],
   "bin": {
-    "semicolon": "./semicolon"
+    "喵呜": "bin/cli.js"
   },
   "main": ""
 }
